@@ -1,4 +1,4 @@
-package actorActions;
+package Tasks;
 
 
 import io.appium.java_client.AppiumBy;
@@ -7,7 +7,7 @@ import tools.AndroidDriver;
 
 import java.net.MalformedURLException;
 
-public class Actor extends AndroidDriver {
+public class Task extends AndroidDriver {
 
     public static void abrirApp() throws MalformedURLException {
         useCoopApp();
@@ -32,5 +32,6 @@ public class Actor extends AndroidDriver {
         WebElement elemento = driver.findElement(new AppiumBy.ByAndroidUIAutomator(id));
         return elemento.getText();
     }
+
 
 }

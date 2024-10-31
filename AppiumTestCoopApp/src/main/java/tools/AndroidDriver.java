@@ -28,7 +28,8 @@ public class AndroidDriver {
         return driver;
     }
 
-    public void fuckOff(){
+    public static void fuckOff() throws InterruptedException {
+        Thread.sleep(1000);
         if (driver != null) driver.quit();
     }
 }

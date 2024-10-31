@@ -6,7 +6,7 @@ import org.junit.runner.RunWith;
 
 @RunWith(CucumberWithSerenity.class)
 @CucumberOptions(
-        features = "src/test/resources/features/RegistrarUsuario.feature",
+        features = "src/test/resources/features/ConsultaInformacionUsuario.feature",
         glue = "stepdefinitions")
-public class RegistrarUsuarioRunner {
+public class ConsultaInformacionUsuarioRunner {
 }
